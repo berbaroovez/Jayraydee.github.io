@@ -1,0 +1,62 @@
+/*
+Find me @Jayraydee on twitter!
+Terms and Conditions:
+No Refunds on digital goods, If you have questions concerning your order please contact us. 
+Your license does not include the right to redistribute copies in anyway, including but not limited to: 
+advertising, stock photography, print sale profits, or resale of any nature. Your purchase of the original
+files releases The Seller from any liability due to loss or damage of the images, and also releases the Seller 
+from any obligation to maintain copies of any digital file, image, or photograph. You hereby grant to The 
+Seller the right to use and publish images, graphics, or media to further promote their services, including 
+portfolio, web site, display, advertisement, and editorial use. The Seller agrees to limit the use of these 
+images, graphics, or media to promotional use only.
+*/
+/*BEGIN PS4 Controller Styling*/
+
+
+/* Positioning and size of the container for the face buttons */
+.custom .abxy{
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    top: 148px;
+    left: 571px;
+    background-repeat:no-repeat;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:52px;
+    height:52px;
+    background: url(abxy.png);
+}
+.custom .button.pressed{
+    background-position-y: -53px;
+    width: 52px;
+    height: 53px;
+    margin-top: 5px;
+}
+.custom .a{ 
+    background-position: 0px 0px;
+    top: 162px;
+    left: -07px;
+    background-repeat:no-repeat;
+}
+.custom .b{ 
+    background-position: -52px 0px;
+    top: 109px;
+    left: 46px;
+    background-repeat:no-repeat;
+}
+.custom .x{ 
+    background-position: -104px 0px;
+    top: 109px;
+    left: -60px;
+    background-repeat:no-repeat;
+}
+.custom .y{ 
+    background-position: -156px 0px;
+    top: 56px;
+    left: -7px;
+    background-repeat:no-repeat;
+}
+
