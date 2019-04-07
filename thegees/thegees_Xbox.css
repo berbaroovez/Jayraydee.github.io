@@ -18,45 +18,44 @@ images, graphics, or media to promotional use only.
     position: absolute;
     width: 400px;
     height: 260px;
-    top: 142px;
-    left: 548px;
+    top: 141px;
+    left: 547px;
     background-repeat:no-repeat;
 }
 /* base class used to simplify the sprite mapping */
 .xbox .button{
     position: absolute;
-    width:50px;
-    height:50px;
+    width:52px;
+    height:52px;
     background: url(ABXY1.png);
 }
 .xbox .button.pressed{
-    background-position-y: -51px;
+    background-position-y: -53px;
     width: 52px;
-    height: 51px;
+    height: 52px;
     margin-top: 05px;
 }
 .xbox .a{ 
     background-position: 0px 1px;
-    top: 162px;
+    top: 158px;
     left: -07px;
     background-repeat:no-repeat;
 }
 .xbox .b{ 
-    background-position: -50px 1px;
-    top: 109px;
-    left: 46px;
+    background-position: -52px 1px;
+    top: 108px;
+    left: 44px;
     background-repeat:no-repeat;
 }
 .xbox .x{ 
-    background-position: -102px 1px;
-    top: 109px;
-    left: -60px;
+    background-position: -104px 1px;
+    top: 108px;
+    left: -57px;
     background-repeat:no-repeat;
 }
 .xbox .y{ 
     background-position: -155px 1px;
     top: 57px;
-    left: -6px;
+    left: -7px;
     background-repeat:no-repeat;
 }
-
