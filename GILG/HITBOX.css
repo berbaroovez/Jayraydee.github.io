@@ -1,6 +1,6 @@
 /*BEGIN Fight Stick Controller Styling*/
 .controller.fight-stick {
-    background: url(base1.png) center no-repeat;
+    background: url(base.png) center no-repeat;
     height: 534px;
     width: 1122px;
 }
@@ -157,39 +157,39 @@
     position: absolute;
     width: 240px;
     height: 154px;
-    top: 210px;
-    left: 205px;
+    top: 184px;
+    left: 153px;
     background: url(wasd.png) no-repeat;
 }
 
 .fight-stick .fstick.up {
-    background-position-x: -75px;
+    background-position-x: -240px;
 }
 
 .fight-stick .fstick.down {
-    background-position-x: -882px;
+    background-position-x: -720px;
 }
 
 .fight-stick .fstick.left {
-    background-position-x: -1322px;
+    background-position-x: -480px;
 }
 
 .fight-stick .fstick.right {
-    background-position-x: -442px;
+    background-position-x: -960px;
     
 }
 .fight-stick .fstick.up.right {
-    background-position-x: -222px;
+    background-position-x: -1920px;
 }
 
 .fight-stick .fstick.up.left {
-    background-position-x: -1542px;
+    background-position-x: -1200px;
 }
 
 .fight-stick .fstick.down.right {
-    background-position-x: -662px;
+    background-position-x: -1680px;
 }
 
 .fight-stick .fstick.down.left {
-    background-position-x: -1102px;
+    background-position-x: -1440px;
 }
