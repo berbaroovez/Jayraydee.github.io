@@ -155,11 +155,11 @@
 
 .fight-stick .fstick {
     position: absolute;
-    width: 260px;
-    height: 160px;
+    width: 240px;
+    height: 154px;
     top: 210px;
     left: 205px;
-    background: url(WASD.png)
+    background: url(wasd.png) no-repeat;
 }
 
 .fight-stick .fstick.up {
