@@ -93,8 +93,8 @@
 .fight-stick .back, .fight-stick .start {
     width: 70px;
     height: 70px;
-    background: #333333;
-    display: block;
+   
+    display: none;
     border-radius: 100%;
 }
 
