@@ -17,8 +17,8 @@
     width: 326px;
     height: 198px;
     position: absolute;
-    right: 0px;
-    bottom: 66px;
+    right: 1px;
+    bottom: 70px;
 }
 
 .fight-stick .trigger-button {
@@ -39,19 +39,20 @@
     position: absolute;
     float: right;
     bottom: 4px;
-    right: 42px;
+    right: 41px;
 }
 
 .fight-stick .trigger-button.right {
     float: left;
+    
 }
 
 .fight-stick .bumpers {
     width: 295px;
     height: 198px;
     position: absolute;
-    right: 0px;
-    top: 88px;
+    right: 1px;
+    top: 84px;
 }
 
 .fight-stick .bumper {
@@ -72,7 +73,7 @@
     position: absolute;
     float: right;
     bottom: 4px;
-    right: 11px;
+    right: 10px;
 }
 
 .fight-stick .bumper.right {
@@ -134,23 +135,23 @@
 }
 
 .fight-stick .a {
-    bottom: 0px;
+    bottom: 7px;
     left: 0px;
 }
 
 .fight-stick .b {
-    bottom: 66px;
-    right: 31px;
+    bottom: 71px;
+    right: 33px;
 }
 
 .fight-stick .x {
-    top: 66px;
+    top: 61px;
     left: 33px
 }
 
 .fight-stick .y {
-    right: 0px;
-    top: 0px;
+    right: 2px;
+    top: -6px;
 }
 
 .fight-stick .fstick {
