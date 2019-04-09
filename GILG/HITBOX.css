@@ -6,7 +6,9 @@
 }
 
 .fight-stick.disconnected {
-    background: url(disconnected.png) no-repeat;
+    background: url(Disconnected.png) no-repeat;
+    position: absolute;
+   
 }
 
 .fight-stick.disconnected div {
