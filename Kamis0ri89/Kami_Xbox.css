@@ -38,7 +38,7 @@ images, graphics, or media to promotional use only.
 .custom .trigger{/* These are the actual triggers themselves */
     width: 200px;
     height: 127px;
-    background: url(trigger.png);
+    background: url(triggers.png);
     background-repeat:no-repeat;
 }
 .custom .trigger.left{ 
