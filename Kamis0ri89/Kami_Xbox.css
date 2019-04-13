@@ -38,7 +38,7 @@ images, graphics, or media to promotional use only.
 .custom .trigger{/* These are the actual triggers themselves */
     width: 200px;
     height: 127px;
-    background: url(triggers.png);
+    background: url(trigger.png);
     background-repeat:no-repeat;
 }
 .custom .trigger.left{ 
@@ -208,7 +208,7 @@ start and select buttons. */
 }
 .custom .stick{
     position: absolute;
-    background: url(stick.png);
+    background: url(sticks.png);
     height:88px;
     width: 88px;
     background-repeat:no-repeat;
