@@ -13,14 +13,14 @@ images, graphics, or media to promotional use only.
 /*BEGIN PS4 Controller Styling*/
 
 .controller.custom{
-    background: url(base.png);
+    background: url(Base.png);
     height: 500px;
     width: 800px;
     background-position-x: 0px;
     background-repeat:no-repeat;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(disconnected.png);
+    background: url(Disconnected.png);
     background-repeat:no-repeat;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
