@@ -59,10 +59,10 @@ images, graphics, or media to promotional use only.
     position: absolute;
 }
 .custom .bumper{
-    width: 208px;
+    width: 250px;
     height: 333px;
-    left: 110px;
-    top: 133px;
+    left: 100px;
+    top: 101px;
     background: url(bumper.png);
     opacity: 0;
     background-repeat:no-repeat;
@@ -75,8 +75,8 @@ images, graphics, or media to promotional use only.
      -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     float: left;
-    left: 462px;
-    top: 133px;
+    left: 450px;
+    top: 101px;
 }
 .custom .bumper.left{
     float: right;
