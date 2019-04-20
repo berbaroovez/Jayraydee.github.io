@@ -14,8 +14,8 @@ images, graphics, or media to promotional use only.
 
 .controller.custom{
     background: url(base.png);
-    height: 657px;
-    width: 781px;
+    height: 500px;
+    width: 800px;
     background-position-x: 0px;
     background-repeat:no-repeat;
 }
