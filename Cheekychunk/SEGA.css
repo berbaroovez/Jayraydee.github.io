@@ -66,7 +66,7 @@ images, graphics, or media to promotional use only.
     height: 200px;
     left: 472px;
     top: 162px;
-    background: url(ABCXYZ.png);
+    background: url(CZ.png);
     opacity: 0;
     background-repeat:no-repeat;
     position: absolute;
@@ -122,8 +122,8 @@ start and select buttons. */
     background-repeat:no-repeat;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
-.custom .back, .custom .start{
-    background: url(start-select.png);
+.custom .back{ 
+    background: url(start.png);
     width: 30px;
     height: 19px;
     background-repeat:no-repeat;
@@ -135,32 +135,21 @@ start and select buttons. */
     width: 35px;
     opacity: 1;
 }
+.custom .start{
+    background: url(start.png);
+    width: 60px;
+    height: 25px;
+    background-repeat:no-repeat;
+}
+
 .custom .start.pressed{
-    top: 25px;
-    left: 140px;
-    width: 35px;
+    top: -24px;
+    left: 59px;
+    width: 190px;
     opacity: 1;
-    background-position-x: -36px;
+    background-position-x: 0px;
 }
-.custom .back{ /* share */
-    position: absolute;
-    top: -101px;
-    left: -55px;
-    float: left;
-    width: 38px;
-    height: 50px;
-    opacity: 0;
-}
-.custom .start{ /* options */
-    position: absolute;
-    top: -101px;
-    left: 284px;
-    float: right;
-    width: 38px;
-    height: 50px;
-    opacity: 0;
-    background-position: px 0;
-}
+
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     opacity: 1;
@@ -178,11 +167,11 @@ start and select buttons. */
     position: absolute;
     width:165px;
     height:165px;
-    background: url(CZ.png);
+    background: url(ABXY.png);
 }
 .custom .button.a.pressed{
     opacity: 1;
-    background-position: -19px -339px;
+    background-position: -18px -339px;
     top: 130px;
     left: 19px;
     width: 80px;
@@ -191,9 +180,9 @@ start and select buttons. */
 }
 .custom .button.b.pressed{
     opacity: 1;
-    background-position: -96px -294px;
+    background-position: -97px -294px;
     top: 85px;
-    left: 96px;
+    left: 97px;
     width: 80px;
     height: 80px;
     
