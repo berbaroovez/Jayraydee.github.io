@@ -260,8 +260,8 @@ start and select buttons. */
 .custom .face.up{
     width: 29px;
     height: 71px;
-    left: 52px;
-    top:0px;
+    left: 51px;
+    top:-1px;
     background-position: -71px 0px;
     background-repeat:no-repeat;
 }
@@ -302,15 +302,15 @@ start and select buttons. */
     width: 71px;
     height: 27px;
     top: 57px;
-    left: -4px;
+    left: -5px;
     background-position: -0px -73px;
     background-repeat:no-repeat;
 }
 .custom .face.up.pressed{
     width: 29px;
-    height: 79px;
+    height: 71px;
     left: 51px;
-    top:2px;
+    top:1px;
     background-position: -71px -73px;
     background-repeat:no-repeat;
 }
