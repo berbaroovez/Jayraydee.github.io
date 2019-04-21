@@ -123,26 +123,31 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back{ 
-    background: url(start.png);
-    width: 30px;
+    position: absolute;
+    background: url(Mode.png);
+    width: 40px;
     height: 19px;
+    opacity: 0;
     background-repeat:no-repeat;
 }
 .custom .back.pressed{
     /*background-position-y: -1px;*/
-    top: 25px;
-    left: 27px;
-    width: 35px;
+    top: 36px;
+    left: 72px;
+    width: 43px;
+    height: 43px;
     opacity: 1;
 }
 .custom .start{
     background: url(start.png);
     width: 60px;
-    height: 25px;
+    height: 35px;
+     opacity: 1;
     background-repeat:no-repeat;
 }
 
 .custom .start.pressed{
+    position: absolute;
     top: -24px;
     left: 59px;
     width: 190px;
