@@ -10,7 +10,7 @@ Seller the right to use and publish images, graphics, or media to further promot
 portfolio, web site, display, advertisement, and editorial use. The Seller agrees to limit the use of these 
 images, graphics, or media to promotional use only.
 */
-/*BEGIN PS4 Controller Styling*/
+/*BEGIN SEGA Controller Styling*/
 
 .controller.custom{
     background: url(Base.png);
@@ -18,8 +18,6 @@ images, graphics, or media to promotional use only.
     width: 800px;
     background-position-x: 0px;
     background-repeat:no-repeat;
-   
-   
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(Disconnected.png);
@@ -60,7 +58,6 @@ images, graphics, or media to promotional use only.
     background-position-x: -1px;
     position: absolute;
 }
-
 .custom .bumper{
     width: 256px;
     height: 200px;
@@ -71,7 +68,6 @@ images, graphics, or media to promotional use only.
     background-repeat:no-repeat;
     position: absolute;
 }
-
 .custom .bumper.right.pressed{
     opacity: 1;
     width: 90px;
@@ -89,27 +85,6 @@ images, graphics, or media to promotional use only.
     top: 153px;
     background-position: -140px -200px;
     float: right;
-}
-.custom .quadrant{
-    position: absolute;
-    background: url(player-n.png);
-    height: 17px;
-    width: 111px;
-    top: 140px;
-    left: 240px;
-    background-repeat:no-repeat;
-}
-.custom .p0{
-    background-position: 0 -6px;
-}
-.custom .p1{
-    background-position: 0 -28px;
-}
-.custom .p2{
-    background-position: 0 -49px;
-}
-.custom .p3{
-    background-position: 0 -70px;
 }
 /* This is to size and position the containing div for the 
 start and select buttons. */
@@ -145,7 +120,6 @@ start and select buttons. */
      opacity: 1;
     background-repeat:no-repeat;
 }
-
 .custom .start.pressed{
     position: absolute;
     top: -24px;
@@ -154,7 +128,6 @@ start and select buttons. */
     opacity: 1;
     background-position-x: 0px;
 }
-
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     opacity: 1;
@@ -181,7 +154,6 @@ start and select buttons. */
     left: 19px;
     width: 80px;
     height: 80px;
-    
 }
 .custom .button.b.pressed{
     opacity: 1;
@@ -190,7 +162,6 @@ start and select buttons. */
     left: 97px;
     width: 80px;
     height: 80px;
-    
 }
 .custom .button.x.pressed{
     opacity: 1;
@@ -198,8 +169,7 @@ start and select buttons. */
     top: 50px;
     left: 0px;
     width: 65px;
-    height: 65px;
-    
+    height: 65px;  
 }
 .custom .button.y.pressed{
     opacity: 1;
@@ -208,41 +178,6 @@ start and select buttons. */
     left: 70px;
     width: 65px;
     height: 65px;
-    
-}
-
-
-
-
-
-.custom .sticks{
-    position: absolute;
-    width: 310px;
-    height: 100px;
-    top: 372px;
-    left: 240px;
-    background-repeat:no-repeat;
-}
-.custom .stick{
-    position: absolute;
-    background: url(stick.png);
-    height:88px;
-    width: 88px;
-    background-repeat:no-repeat;
-}
-.custom .stick.pressed.left{
-    background-position-x: -88px;
-}
-.custom .stick.pressed.right{
-    background-position-x: -88px;
-}
-.custom .stick.left{
-    top: -124px;
-    left: -91px;
-}
-.custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 100px);
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
@@ -318,60 +253,9 @@ start and select buttons. */
     width: 29px;
     height: 71px;
     left: 51px;
-    top: 70px;
+    top: 71px;
     background-position: -170px -74px;
     background-repeat:no-repeat;
 }
-.custom .trigger-button.left{
-    left: 600px;
-    top: 77px;
-    background-position: 0px 0px;
-    background-repeat:no-repeat; 
-}
-.custom .trigger-button.right{ 
-}
-.custom .trigger-button.left.pressed{  
-}
-.custom .trigger-button.right.pressed{  
-}
-.custom .touchpad.pressed{
-    position:absolute;
-    width: 280px;
-    height: 160px;
-    top: 127px;
-    left: 282px;
-    background: url(touchpad.png);
-    background-repeat:no-repeat; 
-}
-.fstick{
-    position: absolute;
-    width: 280px;
-    height: 132px;
-    top: 192px;
-    left: 74px;      
-}
-.fstick.up{
-  
-}
-.fstick.down{
-  
-}
-.fstick.left{
-  
-}
-.fstick.right{
-  
-}
-.fstick.up.right{
-  
-}
-.fstick.up.left{
-  
-}
-.fstick.down.right{
-  
-}
-.fstick.down.left{
-  
-}
-/*END XBOX Controller Styling*/
+
+/*END SEGA XBOX Controller Styling*/
