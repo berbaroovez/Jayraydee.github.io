@@ -190,7 +190,7 @@ start and select buttons. */
 }
 .custom .stick{
     position: absolute;
-    background: url(sticks.png);
+    background: url(stick.png);
     height:88px;
     width: 88px;
     background-repeat:no-repeat;
