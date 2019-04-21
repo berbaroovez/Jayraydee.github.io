@@ -169,7 +169,7 @@ start and select buttons. */
     height: 200px;
     left: 472px;
     top: 162px;
-    background: url(ABCXYZ.png);
+    background: url(ABXY.png);
     background-repeat:no-repeat;
 }
 /* base class used to simplify the sprite mapping */
@@ -178,7 +178,7 @@ start and select buttons. */
     position: absolute;
     width:165px;
     height:165px;
-    background: url(ABCXYZ.png);
+    background: url(CZ.png);
 }
 .custom .button.a.pressed{
     opacity: 1;
