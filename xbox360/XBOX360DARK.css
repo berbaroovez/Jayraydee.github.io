@@ -27,7 +27,7 @@
 .xbox-old .trigger {
     width: 33px;
     height: 76px;
-    background: url(trigger.png);
+    background: url(trigger-b.png);
     opacity: 0;
 }
 
@@ -44,7 +44,7 @@
 .xbox-old .bumper {
     width: 119px;
     height: 44px;
-    background: url(bumper.png);
+    background: url(bumper-b.png);
     opacity: 0;
 }
 
@@ -74,8 +74,8 @@
     background: url(quadrant.png);
     height: 100px;
     width: 100px;
-    top: 165px;
-    left: 284px;
+    top: 164px;
+    left: 283px;
     z-index: -1;
 }
 
