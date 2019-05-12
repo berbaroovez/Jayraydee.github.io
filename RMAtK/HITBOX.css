@@ -61,17 +61,17 @@
 }
 
 .fight-stick .bumper.right {
+     position: absolute;
+    bottom: 101px;
+    right: 238px;
     width: 125px;
     height: 125px;
     -webkit-filter: invert(1); 
-    background: url(Hit_Red.png);
+    background: url(Hit_Yellow.png);
     opacity: 0;
 }
 
-.fight-stick .bumper.right.pressed {
-     width: 125px;
-    height: 125px; 
-     
+.fight-stick .bumper.right.pressed {    
     opacity: 1;
 }
 
