@@ -26,7 +26,7 @@
 .fight-stick .trigger-button {
     width: 1px;
     height: 1px;
-    background: url(open.png)
+    background: url(Hit_Gray.png)
     opacity: 1;
     display: block;
 }
@@ -61,7 +61,7 @@
     height: 123px;
     width: 1px;
     height: 1px;
-    background: url(open.png)
+    background: url(Hit_Gray.png)
     border-radius: 100%;
     opacity: 1;
     display: block;
@@ -95,7 +95,7 @@
 
     width: 1px;
     height: 1px;
-    background: url(open.png);
+    background: url(Hit_Gray.png);
     display: none;
     border-radius: 100%;
 }
@@ -128,7 +128,7 @@
     height: 123px;
     width: 1px;
     height: 1px;
-    background: url(open.png)
+    background: url(Hit_Gray.png)
     opacity: 1;
     display: block;
     position: absolute;
