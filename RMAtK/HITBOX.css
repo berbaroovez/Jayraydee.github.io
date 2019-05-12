@@ -24,10 +24,9 @@
 }
 
 .fight-stick .trigger-button {
-    width: 123px;
-    height: 123px;
-    background: #333333;
-    border-radius: 100%;
+    width: 1px;
+    height: 1px;
+    background: url(open.png)
     opacity: 1;
     display: block;
 }
@@ -60,7 +59,9 @@
 .fight-stick .bumper {
     width: 123px;
     height: 123px;
-    background: #333333;
+    width: 1px;
+    height: 1px;
+    background: url(open.png)
     border-radius: 100%;
     opacity: 1;
     display: block;
@@ -91,9 +92,10 @@
 }
 
 .fight-stick .back, .fight-stick .start {
-    width: 70px;
-    height: 70px;
-   
+
+    width: 1px;
+    height: 1px;
+    background: url(open.png);
     display: none;
     border-radius: 100%;
 }
@@ -109,7 +111,7 @@
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed {
-    transform: translateY(5px);
+
     -webkit-filter: invert(1);
 }
 
@@ -124,8 +126,9 @@
 .fight-stick .button {
     width: 123px;
     height: 123px;
-    background: #333333;
-    border-radius: 100%;
+    width: 1px;
+    height: 1px;
+    background: url(open.png)
     opacity: 1;
     display: block;
     position: absolute;
