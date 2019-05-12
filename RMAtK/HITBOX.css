@@ -102,39 +102,43 @@
 }
 
 .fight-stick .button {
-    width: 123px;
-    height: 123px;
-    width: 1px;
-    height: 1px;
-    background: url(Hit_Gray.png)
-    opacity: 1;
+    left: 260px;
+    width: 125px;
+    height: 125px;
+    opacity: 0;
     display: block;
     position: absolute;
 }
 
 .fight-stick .button.pressed {
-    transform: translateY(5px);
-    -webkit-filter: invert(1);
+
 }
 
-.fight-stick .a {
-    bottom: 7px;
-    left: 0px;
+.fight-stick .button.pressed.a {
+    background: url(Hit_Green.png);
+    opacity: 1;
+    bottom: 28px;
+    left: -67px;
 }
 
-.fight-stick .b {
-    bottom: 71px;
-    right: 33px;
+.fight-stick .button.pressed.b {
+    opacity: 1;
+    bottom: 92px;
+    left: 87px;
 }
 
-.fight-stick .x {
-    top: 61px;
-    left: 33px
+.fight-stick .button.pressed.x {
+    background: url(Hit_Red.png);
+    opacity: 1;
+    top: 38px;
+    left: -34px
 }
 
-.fight-stick .y {
-    right: 2px;
-    top: -6px;
+.fight-stick .button.pressed.y {
+    background: url(Hit_Blue.png);
+    opacity: 1;
+    left: 118px;
+    top: -29px;
 }
 
 .fight-stick .fstick {
