@@ -3,7 +3,7 @@
 /*This class defines the base attributes of the skin*/
 /*Code setup and graphics by Jayraydee, Contact me on twitter @Jayraydee */
 .controller.custom{
-    background: url(Faceplate.png), url(https://imgur.com/adfA6Cz.gif); 
+    background: url(base4.png);
     height: 624px;
     width: 840px;
     background-repeat:no-repeat;
