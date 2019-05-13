@@ -1,0 +1,269 @@
+﻿
+/*BEGIN PS4 Controller Styling*/
+/*This class defines the base attributes of the skin*/
+/*Code setup and graphics by Jayraydee, Contact me on twitter @Jayraydee */
+.controller.custom{
+    background: url(Faceplate.png), url(https://imgur.com/adfA6Cz.gif); 
+    height: 624px;
+    width: 840px;
+    background-repeat:no-repeat;
+}
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    background: url(disconnected.png);
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+ .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    width: 208px;
+    height: 95px;
+    top: 0px;
+    left:10px;
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+.custom .trigger{/* These are the actual triggers themselves */
+    width: 208px;
+    height: 95px;
+    background: url(triggers.png);
+    background-repeat:no-repeat;
+}
+.custom .trigger.left{ 
+    float: left;
+    background-position-x: 104px;
+}
+.custom .trigger.right{
+    float: right;
+    width: 105px;
+    height: 95px;
+    top: 0px;
+    left:612px;
+    background-position-x: -104px;
+    position: absolute;
+}
+
+.custom .bumper{
+    width: 208px;
+    height: 333px;
+    left: 114px;
+    top: 98px;
+    background: url(bumper.png);
+    opacity: 0;
+    background-repeat:no-repeat;
+    position: absolute;
+}
+
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    float: left;
+    left: 518px;
+    top: 98px;
+}
+.custom .bumper.left{
+    float: right;
+}
+
+/* This is to size and position the containing div for the 
+start and select buttons. */
+.custom .arrows{
+    position: absolute;
+    width: 205px;
+    height: 19px;
+    top: 250px;
+    left: 291px;
+    background-repeat:no-repeat;
+}
+/* Setting the size and CSS sprite for the start and select buttons */
+.custom .back, .custom .start{
+    background: url(start.png);
+    width: 34px;
+    height: 19px;
+    background-repeat:no-repeat;
+}
+.custom .back.pressed, .custom .start.pressed{
+    /*background-position-y: -1px;*/
+    top: -102px;
+    opacity: 100;
+    /*margin-top: 2px;*/
+}
+.custom .back{ /* share */
+    position: absolute;
+    top: -101px;
+    left: -55px;
+    float: left;
+    width: 38px;
+    height: 50px;
+    opacity: 0;
+}
+.custom .start{ /* options */
+    position: absolute;
+    top: -101px;
+    left: 284px;
+    float: right;
+    width: 38px;
+    height: 50px;
+    opacity: 0;
+    background-position: px 0;
+}
+/* Positioning and size of the container for the face buttons */
+.custom .abxy{
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    top: 156px;
+    left: 571px;
+    background-repeat:no-repeat;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:58px;
+    height:58px;
+    background: url(face.png);
+}
+.custom .button.pressed{
+    background-position-y: -60px;
+    margin-top: 0px;
+}
+.custom .a{ /* X on PS4*/
+    background-position: 0px 0px;
+    top: 130px;
+    left: 80px;
+    background-repeat:no-repeat;
+}
+.custom .b{ /* circle on PS4*/
+    background-position: -58px 0px;
+    top: 70px;
+    left: 141px;
+    background-repeat:no-repeat;
+}
+.custom .x{ /* square on PS4*/
+    background-position: -117px 0px;
+    top: 70px;
+    left: 20px;
+    background-repeat:no-repeat;
+}
+.custom .y{ /* Triangle on PS4*/
+    background-position: -176px 0px;
+    top: 10px;
+    left: 80px;
+    background-repeat:no-repeat;
+}
+.custom .sticks{
+    position: absolute;
+    width: 364px;
+    height: 100px;
+    top: 328px;
+    left: 241px;
+    background-repeat:no-repeat;
+}
+.custom .stick{
+    position: absolute;
+    background: url(sticks.png);
+    height:100px;
+    width: 100px;
+    background-repeat:no-repeat;
+}
+.custom .stick.pressed.left{
+    background-position-x: -100px;
+}
+.custom .stick.pressed.right{
+    background-position-x: -200px;
+}
+.custom .stick.left{
+    top: -5px;
+    left: -3px;
+}
+.custom .stick.right{
+    top: calc(100% - 105px);
+    left: calc(100% - 100px);
+}
+/* Dpad possitioning and sizing */
+.custom .dpad{
+    position: absolute;
+    width: 70px;
+    height: 130px;
+    top: 189px;
+    left: 90px;
+}
+.custom .face{
+    background: url(dpad.png);
+    position: absolute;
+}
+.custom .face.up{
+    width: 38px;
+    height: 55px;
+    left: 51px;
+    background-position: -38px 0px;
+    background-repeat:no-repeat;
+}
+.custom .face.down{
+    width: 38px;
+    height: 55px;
+    background-position: 0px -54px;
+    background-repeat:no-repeat;
+}
+.custom .face.left{
+    width: 55px;
+    height: 55px;
+    top: 46px;
+    left: 3px;
+    background-position: -76px 0px;
+    background-repeat:no-repeat;
+}
+.custom .face.right{
+    width: 55px;
+    height: 55px;
+    top: 46px;
+    left: 81px;
+    background-position: -131px 0px;
+    background-repeat:no-repeat;
+}
+.custom .face.down{
+    left: 52px;
+    top: 77px;
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+}
+.custom .face.right.pressed{
+width: 55px;
+    height: 55px;
+    top: 46px;
+    left: 81px;
+    background-position: -131px -54px;
+    background-repeat:no-repeat;
+}
+.custom .face.left.pressed{
+    width: 55px;
+    height: 54px;
+    top: 46px;
+    left: 3px;
+    background-position: -76px -54px;
+}
+.custom .face.up.pressed{
+    width: 38px;
+    height: 55px;
+    left: 51px;
+    background-position: -38px -54px;
+}
+.custom .face.down.pressed{ 
+    left: 52px;
+    top: 77px;
+    background-position: 0px -54px;
+    background-repeat:no-repeat;
+}
+.custom .touchpad.pressed{
+    position:absolute;
+    width: 280px;
+    height: 160px;
+    top: 127px;
+    left: 282px;
+    background: url(touchpad.png);
+    background-repeat:no-repeat; 
+}
+/*END P4S Controller Styling*/
