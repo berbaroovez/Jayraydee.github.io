@@ -28,14 +28,14 @@
 .fight-stick .trigger-button.left {
     position: absolute;
     float: right;
-    bottom: 29px;
-    right: 107px;
+    bottom: 8px;
+    right: 113px;
 }
 
 .fight-stick .trigger-button.right {
     position: absolute;
-    bottom: 100px;
-    right: 269px;   
+    bottom: 80px;
+    right: 275px;   
 }
 
 /-----------------------------------------
@@ -44,8 +44,8 @@
     -webkit-filter: invert(1);
 }
 .fight-stick .bumper.left {
-    bottom: 29px;
-    right: 76px;
+    bottom: 9px;
+    right: 82px;
     width: 125px;
     height: 125px;
     background: url(Hit_Gray.png);
@@ -61,8 +61,8 @@
 
 .fight-stick .bumper.right {
      position: absolute;
-    bottom: 101px;
-    right: 238px;
+    bottom: 80px;
+    right: 244px;
     width: 125px;
     height: 125px;
     -webkit-filter: invert(1); 
@@ -116,28 +116,28 @@
 .fight-stick .button.pressed.a {
     background: url(Hit_Green.png);
     opacity: 1;
-    bottom: 28px;
-    left: -67px;
+    bottom: 07px;
+    left: -73px;
 }
 
 .fight-stick .button.pressed.b {
     opacity: 1;
-    bottom: 92px;
-    left: 87px;
+    bottom: 73px;
+    left: 81px;
 }
 
 .fight-stick .button.pressed.x {
     background: url(Hit_Red.png);
     opacity: 1;
-    top: 38px;
-    left: -34px
+    top: 58px;
+    left: -40px
 }
 
 .fight-stick .button.pressed.y {
     background: url(Hit_Blue.png);
     opacity: 1;
-    left: 118px;
-    top: -29px;
+    left: 112px;
+    top: -09px;
 }
 
 .fight-stick .fstick {
