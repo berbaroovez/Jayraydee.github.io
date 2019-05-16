@@ -43,7 +43,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(ps3-assets/base.png); 
+    background: url(base-PS3-GC-MASHUP.png); 
     height: 558px;
     width: 784px;
 }
@@ -63,7 +63,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
     height:65px;
-    background: url(ps3-assets/triggers.png);
+    background: url(triggers.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -82,7 +82,7 @@ placement */
 .custom .bumper{
     width: 89px;
     height: 28px;
-    background: url(ps3-assets/bumpers.png);
+    background: url(bumpers.png);
     opacity: 0;
 }
 .custom .bumpers{
@@ -145,7 +145,7 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(ps3-assets/menus.png);
+    background: url(menus.png);
     width: 34px;
     height: 19px;
 }
@@ -175,7 +175,7 @@ start and select buttons. */
     position: absolute;
     width:62px;
     height:62px;
-    background: url(ps3-assets/face-buttons.png);
+    background: url(face-buttons.png);
 }
 .custom .button.pressed{
     background-position-y: -64px;
@@ -209,9 +209,15 @@ the CSS inline. */
     top: 328px;
     left: 210px;
 }
-.custom .stick{
+.custom .stick.left{
     position: absolute;
-    background: url(ps3-assets/thumbs.png);
+    background: url(thumbs_G.png);
+    height:105px;
+    width: 105px;
+}
+.custom .stick.right{
+    position: absolute;
+    background: url(thumbs_y.png);
     height:105px;
     width: 105px;
 }
@@ -238,7 +244,7 @@ the CSS inline. */
     left: 74px;
 }
 .custom .face{
-    background: url(ps3-assets/dpad.png);
+    background: url(dpad.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
