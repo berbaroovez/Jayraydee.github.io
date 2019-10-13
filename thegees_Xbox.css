@@ -27,7 +27,7 @@ images, graphics, or media to promotional use only.
     position: absolute;
     width:52px;
     height:52px;
-    background: url(ABXY1.png);
+    background: url(abxy.png);
 }
 .xbox .button.pressed{
     background-position-y: -53px;
