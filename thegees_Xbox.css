@@ -14,49 +14,48 @@ images, graphics, or media to promotional use only.
 
 
 /* Positioning and size of the container for the face buttons */
-.custom .abxy{
+.xbox .abxy{
     position: absolute;
     width: 400px;
     height: 260px;
-    top: 148px;
-    left: 571px;
+    top: 141px;
+    left: 547px;
     background-repeat:no-repeat;
 }
 /* base class used to simplify the sprite mapping */
-.custom .button{
+.xbox .button{
     position: absolute;
     width:52px;
     height:52px;
-    background: url(abxy.png);
+    background: url(ABXY1.png);
 }
-.custom .button.pressed{
+.xbox .button.pressed{
     background-position-y: -53px;
     width: 52px;
-    height: 53px;
-    margin-top: 5px;
+    height: 52px;
+    margin-top: 05px;
 }
-.custom .a{ 
-    background-position: 0px 0px;
-    top: 162px;
+.xbox .a{ 
+    background-position: 0px 1px;
+    top: 158px;
     left: -07px;
     background-repeat:no-repeat;
 }
-.custom .b{ 
-    background-position: -52px 0px;
-    top: 109px;
-    left: 46px;
+.xbox .b{ 
+    background-position: -52px 1px;
+    top: 108px;
+    left: 44px;
     background-repeat:no-repeat;
 }
-.custom .x{ 
-    background-position: -104px 0px;
-    top: 109px;
-    left: -60px;
+.xbox .x{ 
+    background-position: -104px 1px;
+    top: 108px;
+    left: -57px;
     background-repeat:no-repeat;
 }
-.custom .y{ 
-    background-position: -156px 0px;
-    top: 56px;
+.xbox .y{ 
+    background-position: -156px 1px;
+    top: 57px;
     left: -7px;
     background-repeat:no-repeat;
 }
-
