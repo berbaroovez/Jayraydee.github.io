@@ -1,0 +1,336 @@
+/*BEGIN PS4 Controller Styling*/
+/*No refunds on digital goods, If you have questions concerning your order please contact us. Your purchase grants you the right to use and display the images for commercial use via streaming, recorded and rebroadcasted media. Your license does not include the right to redistribute copies in anyway, including but not limited to: advertising, stock photography, print sale profits, or resale of any nature. Your purchase of the original files releases The Seller from any liability due to loss or damage of the images, and also releases the Seller from any obligation to maintain copies of any digital file, image, or photograph. You hereby grant to The Seller the right to use and publish images, graphics, or media to further promote their services, including portfolio, web site, display, advertisement, and editorial use. The Seller agrees to limit the use of these images, graphics, or media to promotional use only.*/
+/*Code setup and graphics by Jayraydee, Contact me on twitter @Jayraydee */
+
+.controller.custom{
+    background: url(base.png); 
+    height: 624px;
+    width: 840px;
+    background-repeat:no-repeat;
+}
+.custom.disconnected { 
+    background: url(disconnected.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+ .custom .triggers{ 
+    width: 208px;
+    height: 95px;
+    top: 0px;
+    left:10px;
+
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+.custom .trigger{
+    width: 208px;
+    height: 95px;
+    background: url(triggers.png);
+    background-repeat:no-repeat;
+}
+.custom .trigger.left{ 
+    float: left;
+    background-position-x: 104px;
+}
+.custom .trigger.right{
+    float: right;
+    width: 105px;
+    height: 95px;
+    top: 0px;
+    left:612px;
+    background-position-x: -104px;
+    position: absolute;
+}
+.custom .bumper{
+    width: 208px;
+    height: 333px;
+    left: 114px;
+    top: 98px;
+    background: url(bumper.png);
+    opacity: 0;
+    background-repeat:no-repeat;
+    position: absolute;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    float: left;
+    left: 518px;
+    top: 98px;
+}
+.custom .bumper.left{
+    float: right;
+}
+.custom .quadrant{
+    position: absolute;
+    background: url(player-n.png);
+    height: 17px;
+    width: 111px;
+    top: 140px;
+    left: 240px;
+    background-repeat:no-repeat;
+}
+.custom .p0{
+    background-position: 0 -6px;
+}
+.custom .p1{
+    background-position: 0 -28px;
+}
+.custom .p2{
+    background-position: 0 -49px;
+}
+.custom .p3{
+    background-position: 0 -70px;
+}
+.custom .arrows{
+    position: absolute;
+    width: 205px;
+    height: 19px;
+    top: 250px;
+    left: 291px;
+    background-repeat:no-repeat;
+}
+.custom .back, .custom .start{
+    background: url(start.png);
+    width: 34px;
+    height: 19px;
+    background-repeat:no-repeat;
+}
+.custom .back.pressed, .custom .start.pressed{
+    top: -102px;
+    opacity: 100;
+}
+.custom .back{ 
+    position: absolute;
+    top: -101px;
+    left: -55px;
+    float: left;
+    width: 38px;
+    height: 50px;
+    opacity: 0;
+}
+.custom .start{ 
+    position: absolute;
+    top: -101px;
+    left: 284px;
+    float: right;
+    width: 38px;
+    height: 50px;
+    opacity: 0;
+    background-position: px 0;
+}
+.custom .abxy{
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    top: 156px;
+    left: 571px;
+    background-repeat:no-repeat;
+}
+.custom .button{
+    position: absolute;
+    width:58px;
+    height:58px;
+    background: url(face.png);
+}
+.custom .button.pressed{
+    background-position-y: -60px;
+    margin-top: 0px;
+}
+.custom .a{ /* X on PS4*/
+    background-position: 0px 0px;
+    top: 130px;
+    left: 80px;
+    background-repeat:no-repeat;
+}
+.custom .b{ /* circle on PS4*/
+    background-position: -58px 0px;
+    top: 70px;
+    left: 141px;
+    background-repeat:no-repeat;
+}
+.custom .x{ /* square on PS4*/
+    background-position: -117px 0px;
+    top: 70px;
+    left: 20px;
+    background-repeat:no-repeat;
+}
+.custom .y{ /* Triangle on PS4*/
+    background-position: -176px 0px;
+    top: 10px;
+    left: 80px;
+    background-repeat:no-repeat;
+}
+.custom .sticks{
+    position: absolute;
+    width: 364px;
+    height: 100px;
+    top: 328px;
+    left: 241px;
+    background-repeat:no-repeat;
+}
+.custom .stick{
+    position: absolute;
+    background: url(sticks.png);
+    height:100px;
+    width: 100px;
+    background-repeat:no-repeat;
+}
+.custom .stick.pressed.left{
+    background-position-x: -100px;
+}
+.custom .stick.pressed.right{
+    background-position-x: -200px;
+}
+.custom .stick.left{
+    top: -5px;
+    left: -4px;
+}
+.custom .stick.right{
+    top: calc(100% - 105px);
+    left: calc(100% - 100px);
+}
+.custom .dpad{
+    position: absolute;
+    width: 70px;
+    height: 130px;
+    top: 189px;
+    left: 90px;
+}
+.custom .face{
+    background: url(dpad.png);
+    position: absolute;
+}
+.custom .face.up{
+    width: 38px;
+    height: 55px;
+    left: 51px;
+    background-position: -38px 0px;
+    background-repeat:no-repeat;
+}
+.custom .face.down{
+    width: 38px;
+    height: 55px;
+    background-position: 0px -54px;
+    background-repeat:no-repeat;
+}
+.custom .face.left{
+    width: 55px;
+    height: 55px;
+    top: 46px;
+    left: 3px;
+    background-position: -76px 0px;
+    background-repeat:no-repeat;
+}
+.custom .face.right{
+    width: 55px;
+    height: 55px;
+    top: 46px;
+    left: 81px;
+    background-position: -131px 0px;
+    background-repeat:no-repeat;
+}
+.custom .face.down{
+    left: 52px;
+    top: 77px;
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+}
+.custom .face.right.pressed{
+width: 55px;
+    height: 55px;
+    top: 46px;
+    left: 81px;
+    background-position: -131px -54px;
+    background-repeat:no-repeat;
+}
+.custom .face.left.pressed{
+    width: 55px;
+    height: 54px;
+    top: 46px;
+    left: 3px;
+    background-position: -76px -54px;
+}
+.custom .face.up.pressed{
+    width: 38px;
+    height: 55px;
+    left: 51px;
+    background-position: -38px -54px;
+}
+.custom .face.down.pressed{ 
+    left: 52px;
+    top: 77px;
+    background-position: 0px -54px;
+    background-repeat:no-repeat;
+}
+.custom .trigger-button.left{
+    left: 600px;
+    top: 77px;
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+     
+}
+.custom .trigger-button.right{
+    
+}
+.custom .trigger-button.left.pressed{
+    
+}
+.custom .trigger-button.right.pressed{
+    
+}
+.custom .touchpad{
+    position:absolute;
+    height: 624px;
+    width: 840px;
+    background: url(Xpulsion.gif);
+    background-repeat:no-repeat; 
+}
+.custom .touchpad.pressed{
+    position:absolute;
+    width: 280px;
+    height: 160px;
+    top: 127px;
+    left: 282px;
+    background: url(touchpad.png);
+    background-repeat:no-repeat; 
+
+}
+.fstick{
+    position: absolute;
+    width: 280px;
+    height: 132px;
+    top: 192px;
+    left: 74px;
+        
+}
+.fstick.up{
+  
+}
+.fstick.down{
+  
+}
+.fstick.left{
+  
+}
+.fstick.right{
+  
+}
+.fstick.up.right{
+  
+}
+.fstick.up.left{
+  
+}
+.fstick.down.right{
+  
+}
+.fstick.down.left{
+  
+}
+
+/*END P4S Controller Styling*/
