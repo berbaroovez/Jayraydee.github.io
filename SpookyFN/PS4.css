@@ -19,7 +19,6 @@
     height: 95px;
     top: 0px;
     left:10px;
-
     position: absolute;
     background-repeat:no-repeat;
 } 
@@ -271,8 +270,7 @@ width: 55px;
     left: 600px;
     top: 77px;
     background-position: 0px 0px;
-    background-repeat:no-repeat;
-     
+    background-repeat:no-repeat;    
 }
 .custom .trigger-button.right{
     
@@ -296,17 +294,7 @@ width: 55px;
     margin-top: 20px;
     -webkit-animation: signup-response 120s infinite;
     -webkit-animation-delay: 2s; /* Safari and Chrome */
-    -webkit-animation-fill-mode: forwards ;     
-    
-}
-
-@-webkit-keyframes signup-response{
-  0% { transform:translate(00%, 00%) scale(1.25) rotate(0deg); opacity: 0.0; }  
-  80%{ transform:translate(00%, 00%) scale(1.20) rotate(0deg); opacity: 0.0; }
-  90%{ transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 1.0; }
-  100% { transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 0.0; }
-}
-
+    -webkit-animation-fill-mode: forwards ;        
 }
 .custom .touchpad.pressed{
     position:absolute;
@@ -316,39 +304,13 @@ width: 55px;
     left: 282px;
     background: url(touchpad.png);
     background-repeat:no-repeat; 
+}
+@-webkit-keyframes signup-response{
+  0% { transform:translate(00%, 00%) scale(1.25) rotate(0deg); opacity: 0.0; }  
+  80%{ transform:translate(00%, 00%) scale(1.20) rotate(0deg); opacity: 0.0; }
+  90%{ transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 1.0; }
+  100% { transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 0.0; }
+}
 
-}
-.fstick{
-    position: absolute;
-    width: 280px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
-        
-}
-.fstick.up{
-  
-}
-.fstick.down{
-  
-}
-.fstick.left{
-  
-}
-.fstick.right{
-  
-}
-.fstick.up.right{
-  
-}
-.fstick.up.left{
-  
-}
-.fstick.down.right{
-  
-}
-.fstick.down.left{
-  
-}
 
 /*END P4S Controller Styling*/
