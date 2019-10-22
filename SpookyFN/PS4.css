@@ -286,7 +286,7 @@ width: 55px;
     height: 624px;
     width: 840px;
     background: url(text.png);
-    text-align: center;
+    background-position: -195px -112px;
     margin-top: 20px;
     -webkit-animation: signup-response 200s infinite;
     -webkit-animation-delay: 0s; /* Safari and Chrome */
