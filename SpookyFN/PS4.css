@@ -13,6 +13,7 @@
 .custom.disconnected div {
     display: none;
 }
+
  .custom .triggers{ 
     width: 208px;
     height: 95px;
@@ -280,20 +281,25 @@ width: 55px;
 .custom .trigger-button.right.pressed{
     
 }
-.custom .touchpad{
+
+.custom .p0, .custom .p1, .custom .p2, .custom .p3{
     position:absolute;
     height: 624px;
     width: 840px;
 
     background: url(text.png);
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     
     margin-top: 20px;
-    -webkit-animation: signup-response 120s infinite;
-    -webkit-animation-delay: 2s; /* Safari and Chrome */
+    -webkit-animation: signup-response 1s infinite;
+    -webkit-animation-delay: 0s; /* Safari and Chrome */
     -webkit-animation-fill-mode: forwards ;        
+}
+.custom .touchpad{
+    position:absolute;
+    height: 624px;
+    width: 840px;
+    background-repeat:no-repeat; 
 }
 .custom .touchpad.pressed{
     position:absolute;
@@ -310,6 +316,4 @@ width: 55px;
   90%{ transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 1.0; }
   100% { transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 0.0; }
 }
-
-
 /*END SPOOKY PS4 Controller STYLING*/
