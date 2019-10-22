@@ -13,7 +13,6 @@
 .custom.disconnected div {
     display: none;
 }
-
  .custom .triggers{ 
     width: 208px;
     height: 95px;
@@ -286,12 +285,10 @@ width: 55px;
     position:absolute;
     height: 624px;
     width: 840px;
-
     background: url(text.png);
     text-align: center;
-    
     margin-top: 20px;
-    -webkit-animation: signup-response 1s infinite;
+    -webkit-animation: signup-response 200s infinite;
     -webkit-animation-delay: 0s; /* Safari and Chrome */
     -webkit-animation-fill-mode: forwards ;        
 }
@@ -312,8 +309,8 @@ width: 55px;
 }
 @-webkit-keyframes signup-response{
   0% { transform:translate(00%, 00%) scale(1.25) rotate(0deg); opacity: 0.0; }  
-  80%{ transform:translate(00%, 00%) scale(1.20) rotate(0deg); opacity: 0.0; }
-  90%{ transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 1.0; }
+  90%{ transform:translate(00%, 00%) scale(1.20) rotate(0deg); opacity: 0.0; }
+  95%{ transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 1.0; }
   100% { transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 0.0; }
 }
 /*END SPOOKY PS4 Controller STYLING*/
