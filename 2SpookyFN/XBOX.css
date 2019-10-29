@@ -216,7 +216,7 @@ start and select buttons. */
     background-position: -22px -20px;
     margin-top: 20px;
     -webkit-animation: signup-response 200s infinite;
-    -webkit-animation-delay: 00s; /* Safari and Chrome */
+    -webkit-animation-delay: s; /* Safari and Chrome */
     -webkit-animation-fill-mode: forwards ;        
 }
 /* Dpad possitioning and sizing */
@@ -306,8 +306,8 @@ start and select buttons. */
     background-repeat:no-repeat; 
 }
 @-webkit-keyframes signup-response{
-  0% { transform:translate(00%, 00%) scale(1.25) rotate(0deg); opacity: 10.0; }  
-  90%{ transform:translate(00%, 00%) scale(1.20) rotate(0deg); opacity: 10.0; }
+  0% { transform:translate(00%, 00%) scale(1.25) rotate(0deg); opacity: 0.0; }  
+  90%{ transform:translate(00%, 00%) scale(1.20) rotate(0deg); opacity: 0.0; }
   95%{ transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 1.0; }
   100% { transform:translate(00%, -68%) scale(1.25) rotate(0deg); opacity: 0.0; }
 }
