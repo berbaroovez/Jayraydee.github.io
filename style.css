@@ -1,109 +1,201 @@
-<style>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+</head>
+<body>
 
-body, html {
-  height: 100%;
-}
-.parallax{
-    background-image: url("https://creamsodaknight.github.io/jayraydee_rv.gif?w=1260&h=750&auto=compress&cs=tinysrgb");
-	min-height: 10000px; 
-    background-attachment: fixed;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-p {
-  font:  bold 12px/30px Oswald, sans-serif;
-	border: 04px solid #3c45e2;
-	padding:00px;
-	width:340px; 
-	height:190px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	text-shadow: 01px 1px 1px #fbfbfb,-1px 1px 1px #fbfbfb,01px -1px 1px #fbfbfb,-1px -1px 1px #fbfbfb;
-  
-    z-index: 1000;
-	font-size: 30px;
-	text-align: center;
-     }
+<div class="navbar">
+	<a href="index.html">Home</a>
+	<a href="XBOX.html">XBOX Skins</a>
+	<a href="PS4.html">PS4 Skins</a>
+	<a href="Fightstick.html">Fightstick & Other Skins</a>
+	<a href="https://twitter.com/jayraydee" target="_blank">Twitter</a>
+</div>
 
-.column {
+</head>
+
+<body style="background-color: #333;">
+
+
+<div class="row">
+
+    <div class="column" >
+     <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/N23Lym5.gif">
+      <img src="https://jayraydee.github.io/Assets/2019-11-23_14-55-09.gif" style="width:340px; height:190px"
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Moose Xbox Skin </strong></p></div>
+
+    <div class="column" >
+     <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/Vt0FrvE.gif">
+      <img src="https://jayraydee.github.io/Assets/2019-11-11_18-00-21 (1).gif" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Keefie Xbox Skin </strong></p></div>
+
+    <div class="column" >
+     <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/l0GMvQD.gif">
+      <img src="https://jayraydee.github.io/Assets/2019-11-11_11-35-00 (1).gif" style="width:340px; height:190px"
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Rozy Xbox Skin </strong></p></div>
+
+    <div class="column"  >
+     <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/BlueXone-master/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Blue Xbox one Skin </strong></p></div>
+
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Moxey/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Moxey Xbox Skin </strong></p></div>
+
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/PdrzIEu.gif">
+      <img src="https://jayraydee.github.io/Assets/2019-11-06_22-31-44 (1).gif" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> TMS Skin </strong></p></div>
+
+    <div class="column"  >
+     <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/3EBgyEt.gif">
+      <img src="https://jayraydee.github.io/Assets/2019-11-06_22-32-29 (1).gif" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Tacticizm Skin </strong></p></div>
+
+    <div class="column"  >
+     <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/1Vz9rxy.gif">
+      <img src="https://imgur.com/1Vz9rxy.gif" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> CDMAGS Blue Smoke Skin </strong></p></div>
+	  
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Xbox_one_black/base-hexcomb-Recovered.gif" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Jayraydee Hex Fade Skin </strong></p></div>
+
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Xbox_one_black/Red-base-With-animation-slowed.gif" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Jayraydee red and black animated border Skin </strong></p></div>
+
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/razer-raiju-skin-master/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> razer-raiju-skin-master Skin </strong></p></div>
+	  
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/thegees/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Thegees black and white XBOX Skin </strong></p></div>
+	  
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/xbox360/bg-b.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Black XBOX 360 Skin </strong></p></div>
+
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Mittis_Bot/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Mittis_Bot XBOX Skin </strong></p></div>   
+	  
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/xbox_one_blue/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Xbox blue Skin </strong></p></div>  	  
+
+    <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://jayraydee.github.io/Assets/2019-11-06_22-42-12.gif" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Scoop The Loop XBOX Skin </strong></p></div>	  
 	
-	float: left;
-	width: 340px;
-	padding: 2%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	height: 220px; 
-}
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Purple/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Purple XBOX Skin </strong></p></div>
+	
+   <div class="column"  >
+    <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/editbtw/CONTROLLER.png" style="width:340px; height:190px"
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> editbtw Xbox Skin </strong></p></div>
+	
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+   <img src="https://CreamsodaKnight.github.io/lightish_red/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Lightish_red Skin </strong></p></div>
+	
+   <div class="column"  >
+     <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Staticbtw/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Staticbtw </strong></p></div>
+	
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Orange_Hex/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Orange_Hex Xbox Skin </strong></p></div>
+	
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Rotten/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Rotten Xbox Skin </strong></p></div>
+	
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://jayraydee.github.io/Assets/2019-11-06_22-46-52.gif" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> Murrell220 Xbox Skin </strong></p></div>
+	
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/LVGames/Red/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> LVGames Xbox Skin </strong></p></div>
+	
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/LVGames/Yellow/base.png" style="width:340px; height:190px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> LVGames Xbox Skin </strong></p></div>	
+	
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/LVGames/White/base.png" style="width:300px; height:260px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> LVGames Xbox Skin </strong></p></div>
+	
+   <div class="column"  >
+   <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/LVGames/Green/base.png" style="width:300px; height:260px" 
+           title="Link to GPV" alt="Controller"></a><br>
+   <strong> LVGames Xbox Skin </strong></p></div>	
 
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
+    <div class="column"  >
+     <p> <a href=mailto:jayraydee@gmail.com?subject="subject text"?body="Hello, I am interested in this skin! https://imgur.com/------.gif">
+      <img src="https://CreamsodaKnight.github.io/Melanovski/base.png" style="width:300px; height:260px" 
+           title="Link to GPV" alt="Controller"></a><br>
+    <strong> Melanovski Xbox Skin</strong></p></div>	
+	
 
-#header{
-	position: absolute;
-	z-index: 1000;
-	top: 200px;
-	left: 200px;
-}
-#page {
-  display: grid;
-  width: 100%;
-  height: 250px;
-  grid-template-areas: 
-                       "nav  main"
-                       "nav  foot";
-  grid-template-rows: 50% 30px ;
-  grid-template-columns: 150px 1fr;
-}
+   
+<div class="parallax"></div>
+<div class="col-lg-12 text-box text-center">
 
-
-#page > nav {
-  grid-area: nav;
-  background-color: #ffa08c;
-}
-
-#page > main {
-  grid-area: main;
-  background-color: #ffff64;
-}
-
-#page > footer {
-  grid-area: foot;
-  background-color: #8cffa0;
-}
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-
-</style>
+</div>
+</body>
+</html>
