@@ -5,14 +5,15 @@ body, html {
   fill: red;
 }
 .parallax{
-  background-size: cover;
-    background-image: url("https://creamsodaknight.github.io/jayraydee_rv.gif");
-	min-height: 10000px; 
+ 
+  background-color: black;
+    background-image: url("https://jayraydee.github.io/Assets/144771254-Logo-A.png");
+	min-height: 10000px;
     background-attachment: fixed;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
+    padding: 300px;
+    margin: auto;
 }
 a{
 color: black;  
