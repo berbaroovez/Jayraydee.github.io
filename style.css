@@ -8,8 +8,8 @@ body, html {
  
   background-color: black;
     background-image: url("https://jayraydee.github.io/Assets/144771254-Logo-A.png");
-	min-height: 4000px;
-    background-attachment: fixed, local;
+	min-height: 10000px;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     padding: 300px;
